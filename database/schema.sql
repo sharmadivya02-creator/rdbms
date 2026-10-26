@@ -1,5 +1,4 @@
--- Hotel Management System — MySQL 8+
--- Run this file in MySQL Workbench or with: mysql -u root -p < database/schema.sql
+
 
 CREATE DATABASE IF NOT EXISTS hotel_management
   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
@@ -115,9 +114,3 @@ INSERT INTO Billing (Reservation_ID, Service_Description, Amount, Billing_Date, 
 (2,'Welcome dining',1200,'2027-02-05','Paid'),
 (3,'Room charges',6400,'2027-01-05','Paid');
 
--- Quick checks after setup:
--- SELECT * FROM Rooms;
--- SELECT * FROM Guests;
--- SELECT * FROM Reservations;
--- SELECT R.Reservation_ID, G.Guest_Name, RM.Room_Number, R.Check_In_Date, R.Check_Out_Date, R.Status
--- FROM Reservations R JOIN Guests G ON G.Guest_ID=R.Guest_ID JOIN Rooms RM ON RM.Room_ID=R.Room_ID;
