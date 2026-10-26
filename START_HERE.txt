@@ -1,0 +1,33 @@
+NOMAD / STAY — HOTEL MANAGEMENT SYSTEM
+======================================
+
+QUICK DEMO (NO DATABASE SETUP)
+1. Unzip hotel-management-system.zip.
+2. Open the hotel-management-system folder.
+3. Double-click public/index.html.
+4. Try room search and the reservation form. Demo data is saved in your browser.
+
+FULL RDBMS PROJECT (MYSQL)
+1. Install Node.js 18+ and MySQL 8+.
+2. Open MySQL Workbench, open database/schema.sql and execute the script.
+3. Copy .env.example to .env and set your MySQL username/password.
+4. Open a terminal in this project folder and run:
+       npm install
+       npm start
+5. Visit http://localhost:3000
+6. Look for “MYSQL CONNECTED” in the Hotel overview area.
+
+COLOR PALETTE
+Warm ivory       #F6F3EC
+Soft white       #FFFEFA
+Deep forest ink  #25332D
+Forest green     #30473C
+Forest charcoal  #1E3028
+Antique gold     #B59662
+Misty sage       #DCE3D8
+Warm stone       #D8D4CA
+Terracotta       #A95B4E
+
+More setup steps, SQL demo queries, database relationships and API routes are in README.md.
+
+NOTE: The database seed script recreates these project tables. Back up any existing data before rerunning it. Demo records are fictional. This educational prototype has no login and should not be deployed publicly as-is.
